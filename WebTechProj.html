@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitchonomics: Where Taste Meets Technology</title>
+  
+  <link rel="stylesheet" href="./style.css">
+
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--loading screen-->
+
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
+
+  <!--top-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="C:\Users\Dell\Desktop\Web tech\logo.jpg" width="148" height="38" alt="Kitchonomics">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Restaurants</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <button class="cart-btn" aria-label="cart">
+          <ion-icon name="bag" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="btn btn-primary has-after">Order Now</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!--food guy-->
+
+      <section class="section hero has-bg-image" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+            <h1 class="h1 hero-title">The Best Restaurants In Your Home</h1>
+            <a href="#" class="btn btn-secondary has-after">Order Now</a>
+      </section>
+      <!--how it works-->
+
+      <section class="section instruction" aria-labelledby="">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="instruction-label" data-reveal>How It Works</h2>
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    <span class="span">01</span>
+                    Select Restaurant
+                  </h3>
+
+                  <p class="card-text">
+                    Choose from the best restaurants around you.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    <span class="span">02</span>
+                    Select menu
+                  </h3>
+
+                  <p class="card-text">
+                    Browse through the menu of different restaurants while sitting at your home.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    <span class="span">03</span>
+                    Wait for delivery
+                  </h3>
+
+                  <p class="card-text">
+                   Once the order is placed the delivery will get to you shortly.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--restaraunt-->
+
+      <section class="section top-restaurant" aria-labelledby="top-restaurent-label">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <h2 class="h2 section-title" id="top-restaurent-label">
+             Best Restaurant in Your City
+              </h2>
+
+              
+            </li>
+
+            <li data-reveal="right">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="E:\paragonn.jpg" width="100" height="100" loading="lazy"
+                    alt="Hotel Paragon" class="w-100">
+                </div>
+
+                <h3 class="h5 card-title">Hotel Paragon</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Indian</a>
+                  <a href="#" class="card-meta">Ethnic</a>
+                </div>
+
+                <p class="card-text">
+                Located at the centre of the city. Perfect place for traditional Indian food. 
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary has-after">
+            <span class="span">See All</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+      <!--CTA-->
+
+      <section class="section cta has-bg-image" aria-labelledby="cta-label"
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <figure class="cta-banner" data-reveal="left">
+            
+          </figure>
+
+          <div class="cta-content" data-reveal="right">
+
+            <h2 class="h3 section-title" id="cta-label">
+              Food from your favorite restaurants to your table
+            </h2>
+
+            <p class="section-text">
+              We gather all of your favourite restaurants at one place, so you can order whatever you want.
+            </p>
+
+            <a href="#" class="btn btn-primary has-after">Order Now</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--feedback-->
+
+      <section class="stats" aria-label="statistics" data-reveal>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <h2 class="h3 section-title">Service shows good taste.</h2>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">900</span>
+
+              <p class="stats-text">
+                Satisfied <br>
+                Customer
+              </p>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">10</span>
+
+              <p class="stats-text">
+                Best <br>
+                Restaurants
+              </p>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">1K+</span>
+
+              <p class="stats-text">
+                Food <br>
+                Delivered
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--review-->
+
+      <section class="section testi" aria-labelledby="testi-label">
+        <div class="container">
+
+          <div class="testi-content" data-reveal="left">
+
+            <h2 class="h2 section-title" id="testi-label">What customers say about us</h2>
+
+            <blockquote class="testi-text">
+              The customer review will appear here.
+            </blockquote>
+
+            <div class="wrapper">
+              
+
+              <div>
+                <p class="author-title">"Customer Name"</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <figure class="testi-banner" data-reveal="right">
+           
+          </figure>
+
+        </div>
+      </section>
+      <!--newsletter-->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-content" data-reveal="left">
+            <h2 class="h4 section-title">
+              Get the menu of your favourite restaurants every day
+            </h2>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Enter email address" required class="input-field">
+
+              <button type="submit" class="btn btn-primary has-after">
+                <ion-icon name="notifications-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Subscribe</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!--bottom-->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="section footer-top grid-list">
+
+        <div class="footer-brand">
+
+          <h2 class="h2 section-title">The Best Restaurants in Your Home</h2>
+ 
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">Menu</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Home</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">About Us</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Restaurants</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Contacts</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">Contacts</p>
+          </li>
+
+          <li>
+            <address class="address">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+              <span class="span">The Mall Solan</span>
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:varunkumar@shooliniuiversity.com" class="footer-link">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+              <span class="span">varunkumar@shooliniuiversity.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:+91987654321" class="footer-link">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <span class="span">+91 987654321</span>
+            </a>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+
+const addEventOnElements = function (elem, type, callback) {
+  for (let i = 0, len = elem.length; i < len; i++) {
+    elem[i].addEventListener(type, callback);
+  }
+}
+
+
+const loadingElement = document.querySelector("[data-loading-container]");
+
+window.addEventListener("load", function () {
+  loadingElement.classList.add("loaded");
+  document.body.classList.add("loaded");
+});
+
+
+const navbar = document.querySelector("[data-navbar]");
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
+const overlay = document.querySelector("[data-overlay]");
+
+const toggleNavbar = function () {
+  navbar.classList.toggle("active");
+  overlay.classList.toggle("active");
+  document.body.classList.toggle("active");
+}
+
+addEventOnElements(navTogglers, "click", toggleNavbar);
+
+const closeNavbar = function () {
+  navbar.classList.remove("active");
+  overlay.classList.remove("active");
+  document.body.classList.remove("active");
+}
+
+addEventOnElements(navbarLinks, "click", closeNavbar);
+
+
+
+/**
+ * HEADER
+ */
+
+// header will be active after scroll 200px of window
+
+const header = document.querySelector("[data-header]");
+
+const headerActive = function () {
+  window.scrollY > 200 ? header.classList.add("active")
+    : header.classList.remove("active");
+}
+
+window.addEventListener("scroll", headerActive);
+
+
+
+/**
+ * SCROLL REVEAL
+ */
+
+const revealElements = document.querySelectorAll("[data-reveal]");
+
+const scrollReveal = function () {
+  for (let i = 0, len = revealElements.length; i < len; i++) {
+    if (revealElements[i].getBoundingClientRect().top < window.innerHeight / 1.2) {
+      revealElements[i].classList.add("revealed");
+    }
+  }
+}
+
+window.addEventListener("scroll", scrollReveal);
+window.addEventListener("load", scrollReveal);
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
